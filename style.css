@@ -1,0 +1,79 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+}
+main {
+  width:350px;
+  height: 596px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 14px;
+  box-sizing: border-box;
+  padding: 24px 24px 32px 24px;
+}
+#Equilibrium {
+  width: 302px;
+  height: 302px;
+  margin-bottom:24px;
+}
+h1 {
+  font-size: 24px;
+  color:white;
+  font-weight:700;
+  margin-bottom:16px;
+}
+#text {
+  font-size: 18px;
+  font-weight:300;
+  color: #8BACD9;
+  margin-bottom:24px;
+}
+#number {
+  font-size: 18px;
+  font-weight: bold;
+  color:#00FFF6;
+  position: relative;
+  bottom:2px;
+}
+#left img {
+  margin-right: 2px;
+}
+
+#day {
+  font-size: 18px;
+  color: #8BACD9;
+  font-weight: 300;
+  position:relative;
+  bottom:2px;
+}
+#parent {
+  display: flex;
+  justify-content: space-between;
+  height:44.07px;
+  border-bottom:1px solid #2F415B;
+  margin-bottom:16.07px;
+}
+#bottom img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right:14px;
+}
+#create {
+  color:white;
+  font-size:18px;
+  font-weight: 400;
+  margin-top:7px;
+}
+#create span {
+  font-weight: 300;
+  color: #8BACD9;
+}
+#bottom {
+  display: flex;
+}
